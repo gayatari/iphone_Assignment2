@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063C67B5156BB3170038E3D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063C67B4156BB3170038E3D2 /* UIKit.framework */; };
+		063C67B7156BB3170038E3D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063C67B6156BB3170038E3D2 /* Foundation.framework */; };
+		063C67B9156BB3170038E3D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063C67B8156BB3170038E3D2 /* CoreGraphics.framework */; };
+		063C67BF156BB3170038E3D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 063C67BD156BB3170038E3D2 /* InfoPlist.strings */; };
+		063C67C1156BB3170038E3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C67C0156BB3170038E3D2 /* main.m */; };
+		063C67C5156BB3170038E3D2 /* ViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C67C4156BB3170038E3D2 /* ViewControllerAppDelegate.m */; };
+		063C67CE156BB3540038E3D2 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C67CC156BB3540038E3D2 /* TimeViewController.m */; };
+		063C67CF156BB3540038E3D2 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063C67CD156BB3540038E3D2 /* TimeViewController.xib */; };
+		063C67D2156BBD920038E3D2 /* TimeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C67D1156BBD920038E3D2 /* TimeChart.m */; };
+		063C67D6156BC4270038E3D2 /* DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C67D4156BC4270038E3D2 /* DisplayController.m */; };
+		063C67D7156BC4270038E3D2 /* DisplayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063C67D5156BC4270038E3D2 /* DisplayController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		063C67B0156BB3170038E3D2 /* MyTimeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTimeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		063C67B4156BB3170038E3D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		063C67B6156BB3170038E3D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		063C67B8156BB3170038E3D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		063C67BC156BB3170038E3D2 /* MyTimeMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTimeMachine-Info.plist"; sourceTree = "<group>"; };
+		063C67BE156BB3170038E3D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		063C67C0156BB3170038E3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		063C67C2156BB3170038E3D2 /* MyTimeMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTimeMachine-Prefix.pch"; sourceTree = "<group>"; };
+		063C67C3156BB3170038E3D2 /* ViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		063C67C4156BB3170038E3D2 /* ViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		063C67CB156BB3540038E3D2 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		063C67CC156BB3540038E3D2 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		063C67CD156BB3540038E3D2 /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		063C67D0156BBD920038E3D2 /* TimeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeChart.h; path = ../TimeChart.h; sourceTree = "<group>"; };
+		063C67D1156BBD920038E3D2 /* TimeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeChart.m; path = ../TimeChart.m; sourceTree = "<group>"; };
+		063C67D3156BC4270038E3D2 /* DisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayController.h; sourceTree = "<group>"; };
+		063C67D4156BC4270038E3D2 /* DisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayController.m; sourceTree = "<group>"; };
+		063C67D5156BC4270038E3D2 /* DisplayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063C67AD156BB3170038E3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063C67B5156BB3170038E3D2 /* UIKit.framework in Frameworks */,
+				063C67B7156BB3170038E3D2 /* Foundation.framework in Frameworks */,
+				063C67B9156BB3170038E3D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063C67A5156BB3170038E3D2 = {
+			isa = PBXGroup;
+			children = (
+				063C67BA156BB3170038E3D2 /* MyTimeMachine */,
+				063C67B3156BB3170038E3D2 /* Frameworks */,
+				063C67B1156BB3170038E3D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		063C67B1156BB3170038E3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063C67B0156BB3170038E3D2 /* MyTimeMachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063C67B3156BB3170038E3D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063C67B4156BB3170038E3D2 /* UIKit.framework */,
+				063C67B6156BB3170038E3D2 /* Foundation.framework */,
+				063C67B8156BB3170038E3D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		063C67BA156BB3170038E3D2 /* MyTimeMachine */ = {
+			isa = PBXGroup;
+			children = (
+				063C67D1156BBD920038E3D2 /* TimeChart.m */,
+				063C67D0156BBD920038E3D2 /* TimeChart.h */,
+				063C67D3156BC4270038E3D2 /* DisplayController.h */,
+				063C67D4156BC4270038E3D2 /* DisplayController.m */,
+				063C67D5156BC4270038E3D2 /* DisplayController.xib */,
+				063C67CB156BB3540038E3D2 /* TimeViewController.h */,
+				063C67CC156BB3540038E3D2 /* TimeViewController.m */,
+				063C67CD156BB3540038E3D2 /* TimeViewController.xib */,
+				063C67C3156BB3170038E3D2 /* ViewControllerAppDelegate.h */,
+				063C67C4156BB3170038E3D2 /* ViewControllerAppDelegate.m */,
+				063C67BB156BB3170038E3D2 /* Supporting Files */,
+			);
+			path = MyTimeMachine;
+			sourceTree = "<group>";
+		};
+		063C67BB156BB3170038E3D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				063C67BC156BB3170038E3D2 /* MyTimeMachine-Info.plist */,
+				063C67BD156BB3170038E3D2 /* InfoPlist.strings */,
+				063C67C0156BB3170038E3D2 /* main.m */,
+				063C67C2156BB3170038E3D2 /* MyTimeMachine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063C67AF156BB3170038E3D2 /* MyTimeMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063C67C8156BB3170038E3D2 /* Build configuration list for PBXNativeTarget "MyTimeMachine" */;
+			buildPhases = (
+				063C67AC156BB3170038E3D2 /* Sources */,
+				063C67AD156BB3170038E3D2 /* Frameworks */,
+				063C67AE156BB3170038E3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTimeMachine;
+			productName = MyTimeMachine;
+			productReference = 063C67B0156BB3170038E3D2 /* MyTimeMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063C67A7156BB3170038E3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 063C67AA156BB3170038E3D2 /* Build configuration list for PBXProject "MyTimeMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 063C67A5156BB3170038E3D2;
+			productRefGroup = 063C67B1156BB3170038E3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063C67AF156BB3170038E3D2 /* MyTimeMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063C67AE156BB3170038E3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063C67BF156BB3170038E3D2 /* InfoPlist.strings in Resources */,
+				063C67CF156BB3540038E3D2 /* TimeViewController.xib in Resources */,
+				063C67D7156BC4270038E3D2 /* DisplayController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063C67AC156BB3170038E3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063C67C1156BB3170038E3D2 /* main.m in Sources */,
+				063C67C5156BB3170038E3D2 /* ViewControllerAppDelegate.m in Sources */,
+				063C67CE156BB3540038E3D2 /* TimeViewController.m in Sources */,
+				063C67D2156BBD920038E3D2 /* TimeChart.m in Sources */,
+				063C67D6156BC4270038E3D2 /* DisplayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		063C67BD156BB3170038E3D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063C67BE156BB3170038E3D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063C67C6156BB3170038E3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		063C67C7156BB3170038E3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063C67C9156BB3170038E3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTimeMachine/MyTimeMachine-Prefix.pch";
+				INFOPLIST_FILE = "MyTimeMachine/MyTimeMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		063C67CA156BB3170038E3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTimeMachine/MyTimeMachine-Prefix.pch";
+				INFOPLIST_FILE = "MyTimeMachine/MyTimeMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063C67AA156BB3170038E3D2 /* Build configuration list for PBXProject "MyTimeMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063C67C6156BB3170038E3D2 /* Debug */,
+				063C67C7156BB3170038E3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063C67C8156BB3170038E3D2 /* Build configuration list for PBXNativeTarget "MyTimeMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063C67C9156BB3170038E3D2 /* Debug */,
+				063C67CA156BB3170038E3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063C67A7156BB3170038E3D2 /* Project object */;
+}
